@@ -1,2 +1,2 @@
 # pascal_compiler
-Course project in my university. 
+Course C++ project in my university. 
