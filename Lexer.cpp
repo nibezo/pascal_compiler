@@ -79,6 +79,10 @@ Lexem Lexer::GetLex()
             else if (lex == "end")      { return Lexem(std::move(lex), end_tk, line); }
             else if (lex == "div")      { return Lexem(std::move(lex), div_tk, line); }
             else if (lex == "and")      { return Lexem(std::move(lex), and_tk, line); }
+            else if (lex == "const")    { return Lexem(std::move(lex), const_tk, line); }
+            else if (lex == "case")     { return Lexem(std::move(lex), case_tk, line); }
+            else if (lex == "goto")     { return Lexem(std::move(lex), goto_tk, line); }
+            else if (lex == "label")    { return Lexem(std::move(lex), label_tk, line); }
             else if (lex == "or")       { return Lexem(std::move(lex), or_tk, line); }
             else if (lex == "xor")      { return Lexem(std::move(lex), xor_tk, line); }
             else if (lex == "if")       { return Lexem(std::move(lex), if_tk, line); }
